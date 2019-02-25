@@ -1,0 +1,2155 @@
+solver = kodkod
+Finalize memory size 2
+Finish adjusting memory config.
+(t 0)
+Generate inputs (fast).
+[]
+add r0, r0, r1
+add r0, r0, r1
+[]
+(ARM-ARG bit (0 1 3))
+(ARM-ARG addr ())
+(ARM-ARG const (0 1))
+(ARM-ARG reg-sp ())
+(ARM-ARG reg (2 1 0))
+Generate inputs (fast).
+Generate inverse behaviors...
+Opcode Pool: 
+(#(0 -1 -1)
+ #(3 -1 3)
+ #(3 -1 2)
+ #(3 -1 1)
+ #(3 -1 0)
+ #(3 -1 -1)
+ #(3 -1 7)
+ #(3 -1 6)
+ #(3 -1 5)
+ #(3 -1 4)
+ #(10 -1 -1)
+ #(9 -1 -1)
+ #(8 -1 -1)
+ #(7 -1 -1)
+ #(15 -1 3)
+ #(14 -1 3)
+ #(15 -1 2)
+ #(14 -1 2)
+ #(15 -1 1)
+ #(14 -1 1)
+ #(15 -1 0)
+ #(14 -1 0)
+ #(15 -1 -1)
+ #(14 -1 -1)
+ #(15 -1 7)
+ #(14 -1 7)
+ #(15 -1 6)
+ #(14 -1 6)
+ #(15 -1 5)
+ #(14 -1 5)
+ #(15 -1 4)
+ #(14 -1 4)
+ #(20 -1 -1)
+ #(19 -1 -1)
+ #(18 -1 -1)
+ #(29 -1 -1)
+ #(28 -1 -1)
+ #(27 -1 -1)
+ #(26 -1 -1)
+ #(31 -1 3)
+ #(30 -1 3)
+ #(31 -1 2)
+ #(30 -1 2)
+ #(31 -1 1)
+ #(30 -1 1)
+ #(31 -1 0)
+ #(30 -1 0)
+ #(31 -1 -1)
+ #(30 -1 -1)
+ #(31 -1 7)
+ #(30 -1 7)
+ #(31 -1 6)
+ #(30 -1 6)
+ #(31 -1 5)
+ #(30 -1 5)
+ #(31 -1 4)
+ #(30 -1 4)
+ #(40 -1 -1)
+ #(39 -1 -1))
+#(nop  )
+#(add  ror)
+#(add  lsr)
+#(add  lsl)
+#(add  asr)
+#(add  )
+#(add  ror#)
+#(add  lsr#)
+#(add  lsl#)
+#(add  asr#)
+#(ror  )
+#(lsr  )
+#(lsl  )
+#(asr  )
+#(rsb  ror)
+#(sub  ror)
+#(rsb  lsr)
+#(sub  lsr)
+#(rsb  lsl)
+#(sub  lsl)
+#(rsb  asr)
+#(sub  asr)
+#(rsb  )
+#(sub  )
+#(rsb  ror#)
+#(sub  ror#)
+#(rsb  lsr#)
+#(sub  lsr#)
+#(rsb  lsl#)
+#(sub  lsl#)
+#(rsb  asr#)
+#(sub  asr#)
+#(rsb#  )
+#(sub#  )
+#(add#  )
+#(ror#  )
+#(lsr#  )
+#(lsl#  )
+#(asr#  )
+#(mvn  ror)
+#(mov  ror)
+#(mvn  lsr)
+#(mov  lsr)
+#(mvn  lsl)
+#(mov  lsl)
+#(mvn  asr)
+#(mov  asr)
+#(mvn  )
+#(mov  )
+#(mvn  ror#)
+#(mov  ror#)
+#(mvn  lsr#)
+#(mov  lsr#)
+#(mvn  lsl#)
+#(mov  lsl#)
+#(mvn  asr#)
+#(mov  asr#)
+#(mvn#  )
+#(mov#  )
+
+New Opcode Pool:
+(#<eof> #<eof> #<eof> #<eof>)
+
+Opcode-Id:#(rsb  asr)
+Inst:rsb r0, r1, r2, asr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 1
+Opcode-Id:#(sub  asr#)
+Inst:sub r0, r1, r2, asr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 2
+Inst:sub r0, r1, r2, asr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 3
+Inst:sub r0, r1, r2, asr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 4
+Opcode-Id:#(sub  lsr)
+Inst:sub r0, r1, r2, lsr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 5
+Opcode-Id:#(mvn#  )
+Inst:mvn r0, 1
+Arguments = (0 1) 
+
+
+Icount = 6
+Inst:mvn r0, 0
+Arguments = (0 0) 
+
+
+Icount = 7
+Opcode-Id:#(rsb  )
+Inst:rsb r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 8
+Opcode-Id:#(mvn  asr#)
+Inst:mvn r0, r1, asr 3
+Arguments = (0 1 3) 
+
+
+Icount = 9
+Inst:mvn r0, r1, asr 1
+Arguments = (0 1 1) 
+
+
+Icount = 10
+Inst:mvn r0, r1, asr 0
+Arguments = (0 1 0) 
+
+
+Icount = 11
+Opcode-Id:#(sub  lsl)
+Inst:sub r0, r1, r2, lsl r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 12
+Opcode-Id:#(mvn  lsr)
+Inst:mvn r0, r1, lsr r2
+Arguments = (0 1 2) 
+
+
+Icount = 13
+Opcode-Id:#(rsb  ror)
+Inst:rsb r0, r1, r2, ror r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 14
+Opcode-Id:#(asr  )
+Inst:asr r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 15
+Opcode-Id:#(mov  )
+Inst:mov r0, r1
+Arguments = (0 1) 
+
+
+Icount = 16
+Opcode-Id:#(rsb#  )
+Inst:rsb r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 17
+Inst:rsb r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 18
+Opcode-Id:#(mov  lsl#)
+Inst:mov r0, r1, lsl 3
+Arguments = (0 1 3) 
+
+
+Icount = 19
+Inst:mov r0, r1, lsl 1
+Arguments = (0 1 1) 
+
+
+Icount = 20
+Inst:mov r0, r1, lsl 0
+Arguments = (0 1 0) 
+
+
+Icount = 21
+Opcode-Id:#(add  ror#)
+Inst:add r0, r1, r2, ror 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 22
+Inst:add r0, r1, r2, ror 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 23
+Inst:add r0, r1, r2, ror 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 24
+Opcode-Id:#(mvn  )
+Inst:mvn r0, r1
+Arguments = (0 1) 
+
+
+Icount = 25
+Opcode-Id:#(sub  asr)
+Inst:sub r0, r1, r2, asr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 26
+Opcode-Id:#(lsl#  )
+Inst:lsl r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 27
+Inst:lsl r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 28
+Inst:lsl r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 29
+Opcode-Id:#(sub  lsl#)
+Inst:sub r0, r1, r2, lsl 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 30
+Inst:sub r0, r1, r2, lsl 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 31
+Inst:sub r0, r1, r2, lsl 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 32
+Opcode-Id:#(asr#  )
+Inst:asr r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 33
+Inst:asr r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 34
+Inst:asr r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 35
+Opcode-Id:#(add#  )
+Inst:add r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 36
+Inst:add r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 37
+Opcode-Id:#(rsb  lsr#)
+Inst:rsb r0, r1, r2, lsr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 38
+Inst:rsb r0, r1, r2, lsr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 39
+Inst:rsb r0, r1, r2, lsr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 40
+Opcode-Id:#(add  lsr)
+Inst:add r0, r1, r2, lsr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 41
+Opcode-Id:#(mvn  ror)
+Inst:mvn r0, r1, ror r2
+Arguments = (0 1 2) 
+
+
+Icount = 42
+Opcode-Id:#(rsb  ror#)
+Inst:rsb r0, r1, r2, ror 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 43
+Inst:rsb r0, r1, r2, ror 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 44
+Inst:rsb r0, r1, r2, ror 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 45
+Opcode-Id:#(mvn  asr)
+Inst:mvn r0, r1, asr r2
+Arguments = (0 1 2) 
+
+
+Icount = 46
+Opcode-Id:#(rsb  lsl)
+Inst:rsb r0, r1, r2, lsl r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 47
+Opcode-Id:#(lsl  )
+Inst:lsl r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 48
+Opcode-Id:#(mov  lsr)
+Inst:mov r0, r1, lsr r2
+Arguments = (0 1 2) 
+
+
+Icount = 49
+Opcode-Id:#(mov  ror)
+Inst:mov r0, r1, ror r2
+Arguments = (0 1 2) 
+
+
+Icount = 50
+Opcode-Id:#(add  )
+Inst:add r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 51
+Opcode-Id:#(nop  )
+Opcode-Id:#(rsb  lsl#)
+Inst:rsb r0, r1, r2, lsl 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 52
+Inst:rsb r0, r1, r2, lsl 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 53
+Inst:rsb r0, r1, r2, lsl 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 54
+Opcode-Id:#(add  asr#)
+Inst:add r0, r1, r2, asr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 55
+Inst:add r0, r1, r2, asr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 56
+Inst:add r0, r1, r2, asr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 57
+Opcode-Id:#(mov  ror#)
+Inst:mov r0, r1, ror 3
+Arguments = (0 1 3) 
+
+
+Icount = 58
+Inst:mov r0, r1, ror 1
+Arguments = (0 1 1) 
+
+
+Icount = 59
+Inst:mov r0, r1, ror 0
+Arguments = (0 1 0) 
+
+
+Icount = 60
+Opcode-Id:#(mov  asr)
+Inst:mov r0, r1, asr r2
+Arguments = (0 1 2) 
+
+
+Icount = 61
+Opcode-Id:#(mvn  ror#)
+Inst:mvn r0, r1, ror 3
+Arguments = (0 1 3) 
+
+
+Icount = 62
+Inst:mvn r0, r1, ror 1
+Arguments = (0 1 1) 
+
+
+Icount = 63
+Inst:mvn r0, r1, ror 0
+Arguments = (0 1 0) 
+
+
+Icount = 64
+Opcode-Id:#(mov  lsl)
+Inst:mov r0, r1, lsl r2
+Arguments = (0 1 2) 
+
+
+Icount = 65
+Opcode-Id:#(mvn  lsr#)
+Inst:mvn r0, r1, lsr 3
+Arguments = (0 1 3) 
+
+
+Icount = 66
+Inst:mvn r0, r1, lsr 1
+Arguments = (0 1 1) 
+
+
+Icount = 67
+Inst:mvn r0, r1, lsr 0
+Arguments = (0 1 0) 
+
+
+Icount = 68
+Opcode-Id:#(add  ror)
+Inst:add r0, r1, r2, ror r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 69
+Opcode-Id:#(add  lsl#)
+Inst:add r0, r1, r2, lsl 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 70
+Inst:add r0, r1, r2, lsl 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 71
+Inst:add r0, r1, r2, lsl 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 72
+Opcode-Id:#(sub  )
+Inst:sub r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 73
+Opcode-Id:#(lsr  )
+Inst:lsr r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 74
+Opcode-Id:#(add  asr)
+Inst:add r0, r1, r2, asr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 75
+Opcode-Id:#(ror  )
+Inst:ror r0, r1, r2
+Arguments = (0 1 2) 
+
+
+Icount = 76
+Opcode-Id:#(add  lsl)
+Inst:add r0, r1, r2, lsl r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 77
+Opcode-Id:#(ror#  )
+Inst:ror r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 78
+Inst:ror r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 79
+Inst:ror r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 80
+Opcode-Id:#(add  lsr#)
+Inst:add r0, r1, r2, lsr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 81
+Inst:add r0, r1, r2, lsr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 82
+Inst:add r0, r1, r2, lsr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 83
+Opcode-Id:#(mov#  )
+Inst:mov r0, 1
+Arguments = (0 1) 
+
+
+Icount = 84
+Inst:mov r0, 0
+Arguments = (0 0) 
+
+
+Icount = 85
+Opcode-Id:#(sub  ror)
+Inst:sub r0, r1, r2, ror r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 86
+Opcode-Id:#(mov  lsr#)
+Inst:mov r0, r1, lsr 3
+Arguments = (0 1 3) 
+
+
+Icount = 87
+Inst:mov r0, r1, lsr 1
+Arguments = (0 1 1) 
+
+
+Icount = 88
+Inst:mov r0, r1, lsr 0
+Arguments = (0 1 0) 
+
+
+Icount = 89
+Opcode-Id:#(sub  lsr#)
+Inst:sub r0, r1, r2, lsr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 90
+Inst:sub r0, r1, r2, lsr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 91
+Inst:sub r0, r1, r2, lsr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 92
+Opcode-Id:#(mov  asr#)
+Inst:mov r0, r1, asr 3
+Arguments = (0 1 3) 
+
+
+Icount = 93
+Inst:mov r0, r1, asr 1
+Arguments = (0 1 1) 
+
+
+Icount = 94
+Inst:mov r0, r1, asr 0
+Arguments = (0 1 0) 
+
+
+Icount = 95
+Opcode-Id:#(lsr#  )
+Inst:lsr r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 96
+Inst:lsr r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 97
+Inst:lsr r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 98
+Opcode-Id:#(sub#  )
+Inst:sub r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 99
+Inst:sub r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 100
+Opcode-Id:#(sub  ror#)
+Inst:sub r0, r1, r2, ror 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 101
+Inst:sub r0, r1, r2, ror 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 102
+Inst:sub r0, r1, r2, ror 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 103
+Opcode-Id:#(mvn  lsl#)
+Inst:mvn r0, r1, lsl 3
+Arguments = (0 1 3) 
+
+
+Icount = 104
+Inst:mvn r0, r1, lsl 1
+Arguments = (0 1 1) 
+
+
+Icount = 105
+Inst:mvn r0, r1, lsl 0
+Arguments = (0 1 0) 
+
+
+Icount = 106
+Opcode-Id:#(mvn  lsl)
+Inst:mvn r0, r1, lsl r2
+Arguments = (0 1 2) 
+
+
+Icount = 107
+Opcode-Id:#(rsb  lsr)
+Inst:rsb r0, r1, r2, lsr r3
+Arguments = (0 1 2 3) 
+
+
+Icount = 108
+Opcode-Id:#(rsb  asr#)
+Inst:rsb r0, r1, r2, asr 3
+Arguments = (0 1 2 3) 
+
+
+Icount = 109
+Inst:rsb r0, r1, r2, asr 1
+Arguments = (0 1 2 1) 
+
+
+Icount = 110
+Inst:rsb r0, r1, r2, asr 0
+Arguments = (0 1 2 0) 
+
+
+Icount = 111
+Finish.
+
+SIZE = 1
+(key #(#(#t #t #f) #f #f) -1)
+(keys-bw 0 (#(#(#t #f #f) #f #f)))
+Opcode Pool: 
+(#(0 -1 -1)
+ #(3 -1 3)
+ #(3 -1 2)
+ #(3 -1 1)
+ #(3 -1 0)
+ #(3 -1 -1)
+ #(3 -1 7)
+ #(3 -1 6)
+ #(3 -1 5)
+ #(3 -1 4)
+ #(10 -1 -1)
+ #(9 -1 -1)
+ #(8 -1 -1)
+ #(7 -1 -1)
+ #(15 -1 3)
+ #(14 -1 3)
+ #(15 -1 2)
+ #(14 -1 2)
+ #(15 -1 1)
+ #(14 -1 1)
+ #(15 -1 0)
+ #(14 -1 0)
+ #(15 -1 -1)
+ #(14 -1 -1)
+ #(15 -1 7)
+ #(14 -1 7)
+ #(15 -1 6)
+ #(14 -1 6)
+ #(15 -1 5)
+ #(14 -1 5)
+ #(15 -1 4)
+ #(14 -1 4)
+ #(20 -1 -1)
+ #(19 -1 -1)
+ #(18 -1 -1)
+ #(29 -1 -1)
+ #(28 -1 -1)
+ #(27 -1 -1)
+ #(26 -1 -1)
+ #(31 -1 3)
+ #(30 -1 3)
+ #(31 -1 2)
+ #(30 -1 2)
+ #(31 -1 1)
+ #(30 -1 1)
+ #(31 -1 0)
+ #(30 -1 0)
+ #(31 -1 -1)
+ #(30 -1 -1)
+ #(31 -1 7)
+ #(30 -1 7)
+ #(31 -1 6)
+ #(30 -1 6)
+ #(31 -1 5)
+ #(30 -1 5)
+ #(31 -1 4)
+ #(30 -1 4)
+ #(40 -1 -1)
+ #(39 -1 -1))
+#(nop  )
+#(add  ror)
+#(add  lsr)
+#(add  lsl)
+#(add  asr)
+#(add  )
+#(add  ror#)
+#(add  lsr#)
+#(add  lsl#)
+#(add  asr#)
+#(ror  )
+#(lsr  )
+#(lsl  )
+#(asr  )
+#(rsb  ror)
+#(sub  ror)
+#(rsb  lsr)
+#(sub  lsr)
+#(rsb  lsl)
+#(sub  lsl)
+#(rsb  asr)
+#(sub  asr)
+#(rsb  )
+#(sub  )
+#(rsb  ror#)
+#(sub  ror#)
+#(rsb  lsr#)
+#(sub  lsr#)
+#(rsb  lsl#)
+#(sub  lsl#)
+#(rsb  asr#)
+#(sub  asr#)
+#(rsb#  )
+#(sub#  )
+#(add#  )
+#(ror#  )
+#(lsr#  )
+#(lsl#  )
+#(asr#  )
+#(mvn  ror)
+#(mov  ror)
+#(mvn  lsr)
+#(mov  lsr)
+#(mvn  lsl)
+#(mov  lsl)
+#(mvn  asr)
+#(mov  asr)
+#(mvn  )
+#(mov  )
+#(mvn  ror#)
+#(mov  ror#)
+#(mvn  lsr#)
+#(mov  lsr#)
+#(mvn  lsl#)
+#(mov  lsl#)
+#(mvn  asr#)
+#(mov  asr#)
+#(mvn#  )
+#(mov#  )
+
+New Opcode Pool:
+(#<eof> #<eof> #<eof> #<eof>)
+
+(refine 0 #(#(#t #t #f) #f #f) -1 #(#(#t #f #f) #f #f) (-1) 2)
+Opcode-Id:#(rsb  asr)
+Inst:rsb r0, r0, r0, asr r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 112
+Inst:rsb r0, r1, r0, asr r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 113
+Inst:rsb r0, r0, r1, asr r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 114
+Inst:rsb r0, r1, r1, asr r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 115
+Inst:rsb r0, r0, r0, asr r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 116
+Inst:rsb r0, r1, r0, asr r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 117
+Inst:rsb r0, r0, r1, asr r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 118
+Inst:rsb r0, r1, r1, asr r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 119
+Opcode-Id:#(mvn  lsr)
+Inst:mvn r0, r0, lsr r0
+Arguments = (0 0 0) 
+
+
+Icount = 120
+Inst:mvn r0, r1, lsr r0
+Arguments = (0 1 0) 
+
+
+Icount = 121
+Inst:mvn r0, r0, lsr r1
+Arguments = (0 0 1) 
+
+
+Icount = 122
+Inst:mvn r0, r1, lsr r1
+Arguments = (0 1 1) 
+
+
+Icount = 123
+Opcode-Id:#(lsl  )
+Inst:lsl r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 124
+Inst:lsl r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 125
+Inst:lsl r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 126
+Inst:lsl r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 127
+Opcode-Id:#(ror  )
+Inst:ror r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 128
+Inst:ror r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 129
+Inst:ror r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 130
+Inst:ror r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 131
+Opcode-Id:#(add  ror)
+Inst:add r0, r0, r0, ror r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 132
+Inst:add r0, r0, r1, ror r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 133
+Inst:add r0, r1, r1, ror r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 134
+Inst:add r0, r0, r0, ror r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 135
+Inst:add r0, r0, r1, ror r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 136
+Inst:add r0, r1, r1, ror r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 137
+Opcode-Id:#(add  asr#)
+Inst:add r0, r0, r0, asr 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 138
+Inst:add r0, r0, r1, asr 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 139
+Inst:add r0, r1, r1, asr 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 140
+Inst:add r0, r0, r0, asr 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 141
+Inst:add r0, r0, r1, asr 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 142
+Inst:add r0, r1, r1, asr 1
+Arguments = (0 1 1 1) 
+
+
+Icount = 143
+Inst:add r0, r0, r0, asr 0
+Arguments = (0 0 0 0) 
+
+
+Icount = 144
+Inst:add r0, r0, r1, asr 0
+Arguments = (0 0 1 0) 
+
+
+Icount = 145
+Inst:add r0, r1, r1, asr 0
+Arguments = (0 1 1 0) 
+
+
+Icount = 146
+Opcode-Id:#(add  lsl)
+Inst:add r0, r0, r0, lsl r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 147
+Inst:add r0, r0, r1, lsl r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 148
+Inst:add r0, r1, r1, lsl r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 149
+Inst:add r0, r0, r0, lsl r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 150
+Inst:add r0, r0, r1, lsl r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 151
+Inst:add r0, r1, r1, lsl r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 152
+Opcode-Id:#(lsr#  )
+Inst:lsr r0, r0, 3
+Arguments = (0 0 3) 
+
+
+Icount = 153
+Inst:lsr r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 154
+Inst:lsr r0, r0, 1
+Arguments = (0 0 1) 
+
+
+Icount = 155
+Inst:lsr r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 156
+Inst:lsr r0, r0, 0
+Arguments = (0 0 0) 
+
+
+Icount = 157
+Inst:lsr r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 158
+Opcode-Id:#(rsb#  )
+Inst:rsb r0, r0, 1
+Arguments = (0 0 1) 
+
+
+Icount = 159
+Inst:rsb r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 160
+Inst:rsb r0, r0, 0
+Arguments = (0 0 0) 
+
+
+Icount = 161
+Inst:rsb r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 162
+Opcode-Id:#(mov  ror#)
+Inst:mov r0, r0, ror 3
+Arguments = (0 0 3) 
+
+
+Icount = 163
+Inst:mov r0, r1, ror 3
+Arguments = (0 1 3) 
+
+
+Icount = 164
+Inst:mov r0, r0, ror 1
+Arguments = (0 0 1) 
+
+
+Icount = 165
+Inst:mov r0, r1, ror 1
+Arguments = (0 1 1) 
+
+
+Icount = 166
+Inst:mov r0, r0, ror 0
+Arguments = (0 0 0) 
+
+
+Icount = 167
+Inst:mov r0, r1, ror 0
+Arguments = (0 1 0) 
+
+
+Icount = 168
+Opcode-Id:#(mvn  ror)
+Inst:mvn r0, r0, ror r0
+Arguments = (0 0 0) 
+
+
+Icount = 169
+Inst:mvn r0, r1, ror r0
+Arguments = (0 1 0) 
+
+
+Icount = 170
+Inst:mvn r0, r0, ror r1
+Arguments = (0 0 1) 
+
+
+Icount = 171
+Inst:mvn r0, r1, ror r1
+Arguments = (0 1 1) 
+
+
+Icount = 172
+Opcode-Id:#(nop  )
+Opcode-Id:#(mov  lsl#)
+Inst:mov r0, r0, lsl 3
+Arguments = (0 0 3) 
+
+
+Icount = 173
+Inst:mov r0, r1, lsl 3
+Arguments = (0 1 3) 
+
+
+Icount = 174
+Inst:mov r0, r0, lsl 1
+Arguments = (0 0 1) 
+
+
+Icount = 175
+Inst:mov r0, r1, lsl 1
+Arguments = (0 1 1) 
+
+
+Icount = 176
+Inst:mov r0, r0, lsl 0
+Arguments = (0 0 0) 
+
+
+Icount = 177
+Inst:mov r0, r1, lsl 0
+Arguments = (0 1 0) 
+
+
+Icount = 178
+Opcode-Id:#(rsb  lsr#)
+Inst:rsb r0, r0, r0, lsr 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 179
+Inst:rsb r0, r1, r0, lsr 3
+Arguments = (0 1 0 3) 
+
+
+Icount = 180
+Inst:rsb r0, r0, r1, lsr 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 181
+Inst:rsb r0, r1, r1, lsr 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 182
+Inst:rsb r0, r0, r0, lsr 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 183
+Inst:rsb r0, r1, r0, lsr 1
+Arguments = (0 1 0 1) 
+
+
+Icount = 184
+Inst:rsb r0, r0, r1, lsr 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 185
+Inst:rsb r0, r1, r1, lsr 1
+Arguments = (0 1 1 1) 
+
+
+Icount = 186
+Inst:rsb r0, r0, r0, lsr 0
+Arguments = (0 0 0 0) 
+
+
+Icount = 187
+Inst:rsb r0, r1, r0, lsr 0
+Arguments = (0 1 0 0) 
+
+
+Icount = 188
+Inst:rsb r0, r0, r1, lsr 0
+Arguments = (0 0 1 0) 
+
+
+Icount = 189
+Inst:rsb r0, r1, r1, lsr 0
+Arguments = (0 1 1 0) 
+
+
+Icount = 190
+Opcode-Id:#(mov  asr#)
+Inst:mov r0, r0, asr 3
+Arguments = (0 0 3) 
+
+
+Icount = 191
+Inst:mov r0, r1, asr 3
+Arguments = (0 1 3) 
+
+
+Icount = 192
+Inst:mov r0, r0, asr 1
+Arguments = (0 0 1) 
+
+
+Icount = 193
+Inst:mov r0, r1, asr 1
+Arguments = (0 1 1) 
+
+
+Icount = 194
+Inst:mov r0, r0, asr 0
+Arguments = (0 0 0) 
+
+
+Icount = 195
+Inst:mov r0, r1, asr 0
+Arguments = (0 1 0) 
+
+
+Icount = 196
+Opcode-Id:#(mov  ror)
+Inst:mov r0, r0, ror r0
+Arguments = (0 0 0) 
+
+
+Icount = 197
+Inst:mov r0, r1, ror r0
+Arguments = (0 1 0) 
+
+
+Icount = 198
+Inst:mov r0, r0, ror r1
+Arguments = (0 0 1) 
+
+
+Icount = 199
+Inst:mov r0, r1, ror r1
+Arguments = (0 1 1) 
+
+
+Icount = 200
+Opcode-Id:#(ror#  )
+Inst:ror r0, r0, 3
+Arguments = (0 0 3) 
+
+
+Icount = 201
+Inst:ror r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 202
+Inst:ror r0, r0, 1
+Arguments = (0 0 1) 
+
+
+Icount = 203
+Inst:ror r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 204
+Inst:ror r0, r0, 0
+Arguments = (0 0 0) 
+
+
+Icount = 205
+Inst:ror r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 206
+Opcode-Id:#(lsl#  )
+Inst:lsl r0, r0, 3
+Arguments = (0 0 3) 
+
+
+Icount = 207
+Inst:lsl r0, r1, 3
+Arguments = (0 1 3) 
+
+
+Icount = 208
+Inst:lsl r0, r0, 1
+Arguments = (0 0 1) 
+
+
+Icount = 209
+Inst:lsl r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 210
+Inst:lsl r0, r0, 0
+Arguments = (0 0 0) 
+
+
+Icount = 211
+Inst:lsl r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 212
+Opcode-Id:#(mov  asr)
+Inst:mov r0, r0, asr r0
+Arguments = (0 0 0) 
+
+
+Icount = 213
+Inst:mov r0, r1, asr r0
+Arguments = (0 1 0) 
+
+
+Icount = 214
+Inst:mov r0, r0, asr r1
+Arguments = (0 0 1) 
+
+
+Icount = 215
+Inst:mov r0, r1, asr r1
+Arguments = (0 1 1) 
+
+
+Icount = 216
+Opcode-Id:#(mvn  asr)
+Inst:mvn r0, r0, asr r0
+Arguments = (0 0 0) 
+
+
+Icount = 217
+Inst:mvn r0, r1, asr r0
+Arguments = (0 1 0) 
+
+
+Icount = 218
+Inst:mvn r0, r0, asr r1
+Arguments = (0 0 1) 
+
+
+Icount = 219
+Inst:mvn r0, r1, asr r1
+Arguments = (0 1 1) 
+
+
+Icount = 220
+Opcode-Id:#(add  )
+Inst:add r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 221
+Inst:add r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 222
+Inst:add r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 223
+Opcode-Id:#(mov  lsl)
+Inst:mov r0, r0, lsl r0
+Arguments = (0 0 0) 
+
+
+Icount = 224
+Inst:mov r0, r1, lsl r0
+Arguments = (0 1 0) 
+
+
+Icount = 225
+Inst:mov r0, r0, lsl r1
+Arguments = (0 0 1) 
+
+
+Icount = 226
+Inst:mov r0, r1, lsl r1
+Arguments = (0 1 1) 
+
+
+Icount = 227
+Opcode-Id:#(sub  lsl)
+Inst:sub r0, r0, r0, lsl r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 228
+Inst:sub r0, r1, r0, lsl r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 229
+Inst:sub r0, r0, r1, lsl r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 230
+Inst:sub r0, r1, r1, lsl r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 231
+Inst:sub r0, r0, r0, lsl r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 232
+Inst:sub r0, r1, r0, lsl r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 233
+Inst:sub r0, r0, r1, lsl r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 234
+Inst:sub r0, r1, r1, lsl r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 235
+Opcode-Id:#(add  asr)
+Inst:add r0, r0, r0, asr r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 236
+Inst:add r0, r0, r1, asr r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 237
+Inst:add r0, r1, r1, asr r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 238
+Inst:add r0, r0, r0, asr r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 239
+Inst:add r0, r0, r1, asr r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 240
+Inst:add r0, r1, r1, asr r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 241
+Opcode-Id:#(asr  )
+Inst:asr r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 242
+Inst:asr r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 243
+Inst:asr r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 244
+Inst:asr r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 245
+Opcode-Id:#(sub  ror)
+Inst:sub r0, r0, r0, ror r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 246
+Inst:sub r0, r1, r0, ror r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 247
+Inst:sub r0, r0, r1, ror r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 248
+Inst:sub r0, r1, r1, ror r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 249
+Inst:sub r0, r0, r0, ror r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 250
+Inst:sub r0, r1, r0, ror r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 251
+Inst:sub r0, r0, r1, ror r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 252
+Inst:sub r0, r1, r1, ror r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 253
+Opcode-Id:#(rsb  lsl#)
+Inst:rsb r0, r0, r0, lsl 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 254
+Inst:rsb r0, r1, r0, lsl 3
+Arguments = (0 1 0 3) 
+
+
+Icount = 255
+Inst:rsb r0, r0, r1, lsl 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 256
+Inst:rsb r0, r1, r1, lsl 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 257
+Inst:rsb r0, r0, r0, lsl 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 258
+Inst:rsb r0, r1, r0, lsl 1
+Arguments = (0 1 0 1) 
+
+
+Icount = 259
+Inst:rsb r0, r0, r1, lsl 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 260
+Inst:rsb r0, r1, r1, lsl 1
+Arguments = (0 1 1 1) 
+
+
+Icount = 261
+Inst:rsb r0, r0, r0, lsl 0
+Arguments = (0 0 0 0) 
+
+
+Icount = 262
+Inst:rsb r0, r1, r0, lsl 0
+Arguments = (0 1 0 0) 
+
+
+Icount = 263
+Inst:rsb r0, r0, r1, lsl 0
+Arguments = (0 0 1 0) 
+
+
+Icount = 264
+Inst:rsb r0, r1, r1, lsl 0
+Arguments = (0 1 1 0) 
+
+
+Icount = 265
+Opcode-Id:#(sub  lsr)
+Inst:sub r0, r0, r0, lsr r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 266
+Inst:sub r0, r1, r0, lsr r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 267
+Inst:sub r0, r0, r1, lsr r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 268
+Inst:sub r0, r1, r1, lsr r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 269
+Inst:sub r0, r0, r0, lsr r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 270
+Inst:sub r0, r1, r0, lsr r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 271
+Inst:sub r0, r0, r1, lsr r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 272
+Inst:sub r0, r1, r1, lsr r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 273
+Opcode-Id:#(mvn  lsr#)
+Inst:mvn r0, r0, lsr 3
+Arguments = (0 0 3) 
+
+
+Icount = 274
+Inst:mvn r0, r1, lsr 3
+Arguments = (0 1 3) 
+
+
+Icount = 275
+Inst:mvn r0, r0, lsr 1
+Arguments = (0 0 1) 
+
+
+Icount = 276
+Inst:mvn r0, r1, lsr 1
+Arguments = (0 1 1) 
+
+
+Icount = 277
+Inst:mvn r0, r0, lsr 0
+Arguments = (0 0 0) 
+
+
+Icount = 278
+Inst:mvn r0, r1, lsr 0
+Arguments = (0 1 0) 
+
+
+Icount = 279
+Opcode-Id:#(sub  ror#)
+Inst:sub r0, r0, r0, ror 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 280
+Inst:sub r0, r1, r0, ror 3
+Arguments = (0 1 0 3) 
+
+
+Icount = 281
+Inst:sub r0, r0, r1, ror 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 282
+Inst:sub r0, r1, r1, ror 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 283
+Inst:sub r0, r0, r0, ror 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 284
+Inst:sub r0, r1, r0, ror 1
+Arguments = (0 1 0 1) 
+
+
+Icount = 285
+Inst:sub r0, r0, r1, ror 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 286
+Inst:sub r0, r1, r1, ror 1
+Arguments = (0 1 1 1) 
+
+
+Icount = 287
+Inst:sub r0, r0, r0, ror 0
+Arguments = (0 0 0 0) 
+
+
+Icount = 288
+Inst:sub r0, r1, r0, ror 0
+Arguments = (0 1 0 0) 
+
+
+Icount = 289
+Inst:sub r0, r0, r1, ror 0
+Arguments = (0 0 1 0) 
+
+
+Icount = 290
+Inst:sub r0, r1, r1, ror 0
+Arguments = (0 1 1 0) 
+
+
+Icount = 291
+Opcode-Id:#(rsb  lsl)
+Inst:rsb r0, r0, r0, lsl r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 292
+Inst:rsb r0, r1, r0, lsl r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 293
+Inst:rsb r0, r0, r1, lsl r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 294
+Inst:rsb r0, r1, r1, lsl r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 295
+Inst:rsb r0, r0, r0, lsl r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 296
+Inst:rsb r0, r1, r0, lsl r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 297
+Inst:rsb r0, r0, r1, lsl r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 298
+Inst:rsb r0, r1, r1, lsl r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 299
+Opcode-Id:#(add  lsr#)
+Inst:add r0, r0, r0, lsr 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 300
+Inst:add r0, r0, r1, lsr 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 301
+Inst:add r0, r1, r1, lsr 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 302
+Inst:add r0, r0, r0, lsr 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 303
+Inst:add r0, r0, r1, lsr 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 304
+Inst:add r0, r1, r1, lsr 1
+Arguments = (0 1 1 1) 
+
+
+Icount = 305
+Inst:add r0, r0, r0, lsr 0
+Arguments = (0 0 0 0) 
+
+
+Icount = 306
+Inst:add r0, r0, r1, lsr 0
+Arguments = (0 0 1 0) 
+
+
+Icount = 307
+Inst:add r0, r1, r1, lsr 0
+Arguments = (0 1 1 0) 
+
+
+Icount = 308
+Opcode-Id:#(rsb  ror)
+Inst:rsb r0, r0, r0, ror r0
+Arguments = (0 0 0 0) 
+
+
+Icount = 309
+Inst:rsb r0, r1, r0, ror r0
+Arguments = (0 1 0 0) 
+
+
+Icount = 310
+Inst:rsb r0, r0, r1, ror r0
+Arguments = (0 0 1 0) 
+
+
+Icount = 311
+Inst:rsb r0, r1, r1, ror r0
+Arguments = (0 1 1 0) 
+
+
+Icount = 312
+Inst:rsb r0, r0, r0, ror r1
+Arguments = (0 0 0 1) 
+
+
+Icount = 313
+Inst:rsb r0, r1, r0, ror r1
+Arguments = (0 1 0 1) 
+
+
+Icount = 314
+Inst:rsb r0, r0, r1, ror r1
+Arguments = (0 0 1 1) 
+
+
+Icount = 315
+Inst:rsb r0, r1, r1, ror r1
+Arguments = (0 1 1 1) 
+
+
+Icount = 316
+Opcode-Id:#(mvn  lsl#)
+Inst:mvn r0, r0, lsl 3
+Arguments = (0 0 3) 
+
+
+Icount = 317
+Inst:mvn r0, r1, lsl 3
+Arguments = (0 1 3) 
+
+
+Icount = 318
+Inst:mvn r0, r0, lsl 1
+Arguments = (0 0 1) 
+
+
+Icount = 319
+Inst:mvn r0, r1, lsl 1
+Arguments = (0 1 1) 
+
+
+Icount = 320
+Inst:mvn r0, r0, lsl 0
+Arguments = (0 0 0) 
+
+
+Icount = 321
+Inst:mvn r0, r1, lsl 0
+Arguments = (0 1 0) 
+
+
+Icount = 322
+Opcode-Id:#(rsb  )
+Inst:rsb r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 323
+Inst:rsb r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 324
+Inst:rsb r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 325
+Inst:rsb r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 326
+Opcode-Id:#(add#  )
+Inst:add r0, r0, 1
+Arguments = (0 0 1) 
+
+
+Icount = 327
+Inst:add r0, r1, 1
+Arguments = (0 1 1) 
+
+
+Icount = 328
+Inst:add r0, r0, 0
+Arguments = (0 0 0) 
+
+
+Icount = 329
+Inst:add r0, r1, 0
+Arguments = (0 1 0) 
+
+
+Icount = 330
+Opcode-Id:#(sub  )
+Inst:sub r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 331
+Inst:sub r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 332
+Inst:sub r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 333
+Inst:sub r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 334
+Opcode-Id:#(mov  lsr)
+Inst:mov r0, r0, lsr r0
+Arguments = (0 0 0) 
+
+
+Icount = 335
+Inst:mov r0, r1, lsr r0
+Arguments = (0 1 0) 
+
+
+Icount = 336
+Inst:mov r0, r0, lsr r1
+Arguments = (0 0 1) 
+
+
+Icount = 337
+Inst:mov r0, r1, lsr r1
+Arguments = (0 1 1) 
+
+
+Icount = 338
+Opcode-Id:#(lsr  )
+Inst:lsr r0, r0, r0
+Arguments = (0 0 0) 
+
+
+Icount = 339
+Inst:lsr r0, r1, r0
+Arguments = (0 1 0) 
+
+
+Icount = 340
+Inst:lsr r0, r0, r1
+Arguments = (0 0 1) 
+
+
+Icount = 341
+Inst:lsr r0, r1, r1
+Arguments = (0 1 1) 
+
+
+Icount = 342
+Opcode-Id:#(mvn#  )
+Inst:mvn r0, 1
+Arguments = (0 1) 
+
+
+Icount = 343
+Inst:mvn r0, 0
+Arguments = (0 0) 
+
+
+Icount = 344
+Opcode-Id:#(mvn  ror#)
+Inst:mvn r0, r0, ror 3
+Arguments = (0 0 3) 
+
+
+Icount = 345
+Inst:mvn r0, r1, ror 3
+Arguments = (0 1 3) 
+
+
+Icount = 346
+Inst:mvn r0, r0, ror 1
+Arguments = (0 0 1) 
+
+
+Icount = 347
+Inst:mvn r0, r1, ror 1
+Arguments = (0 1 1) 
+
+
+Icount = 348
+Inst:mvn r0, r0, ror 0
+Arguments = (0 0 0) 
+
+
+Icount = 349
+Inst:mvn r0, r1, ror 0
+Arguments = (0 1 0) 
+
+
+Icount = 350
+Opcode-Id:#(add  lsl#)
+Inst:add r0, r0, r0, lsl 3
+Arguments = (0 0 0 3) 
+
+
+Icount = 351
+Inst:add r0, r0, r1, lsl 3
+Arguments = (0 0 1 3) 
+
+
+Icount = 352
+Inst:add r0, r1, r1, lsl 3
+Arguments = (0 1 1 3) 
+
+
+Icount = 353
+Inst:add r0, r0, r0, lsl 1
+Arguments = (0 0 0 1) 
+
+
+Icount = 354
+Inst:add r0, r0, r1, lsl 1
+Arguments = (0 0 1 1) 
+
+
+Icount = 355
+
+[7] FOUND!!!
+add r0, r0, r1, lsl 1
+
+(cost 1)
+(ce-count 2)
+(ce-count-precise 0)
+
+(time 2)
+FOUND!!!
+'#(#<inst>)
