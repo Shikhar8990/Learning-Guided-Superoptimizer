@@ -4,5 +4,5 @@ Builds of top of greenthumb.
 
 Coming Soon - Tutorial to use a learned model to order the search space of the LENS search algorithm.
 
-Greenthumb: https://github.com/mangpo/greenthumb
+Greenthumb: https://github.com/mangpo/greenthumb.
 The procedure install and run is similar to that of Greenthumb.
